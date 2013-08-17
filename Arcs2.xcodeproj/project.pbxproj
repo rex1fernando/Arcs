@@ -11,6 +11,9 @@
 		B8BB30C017BEBDC100CAB654 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BB30BF17BEBDC100CAB654 /* ScreenSaver.framework */; };
 		B8BB30CA17BEBDC100CAB654 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8BB30C817BEBDC100CAB654 /* InfoPlist.strings */; };
 		B8BB30CE17BEBDC100CAB654 /* Arcs2View.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BB30CD17BEBDC100CAB654 /* Arcs2View.m */; };
+		B8BB30D617BEBDDA00CAB654 /* ArcAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B8BB30D417BEBDDA00CAB654 /* ArcAnimation.h */; };
+		B8BB30D717BEBDDA00CAB654 /* ArcAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BB30D517BEBDDA00CAB654 /* ArcAnimation.m */; };
+		B8BB30DB17BEBE8700CAB654 /* ConfigSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BB30DA17BEBE8700CAB654 /* ConfigSheet.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		B8BB30CB17BEBDC100CAB654 /* Arcs2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Arcs2-Prefix.pch"; sourceTree = "<group>"; };
 		B8BB30CC17BEBDC100CAB654 /* Arcs2View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arcs2View.h; sourceTree = "<group>"; };
 		B8BB30CD17BEBDC100CAB654 /* Arcs2View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Arcs2View.m; sourceTree = "<group>"; };
+		B8BB30D417BEBDDA00CAB654 /* ArcAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcAnimation.h; sourceTree = "<group>"; };
+		B8BB30D517BEBDDA00CAB654 /* ArcAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcAnimation.m; sourceTree = "<group>"; };
+		B8BB30DA17BEBE8700CAB654 /* ConfigSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigSheet.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +88,10 @@
 			children = (
 				B8BB30CC17BEBDC100CAB654 /* Arcs2View.h */,
 				B8BB30CD17BEBDC100CAB654 /* Arcs2View.m */,
+				B8BB30D417BEBDDA00CAB654 /* ArcAnimation.h */,
+				B8BB30D517BEBDDA00CAB654 /* ArcAnimation.m */,
 				B8BB30C617BEBDC100CAB654 /* Supporting Files */,
+				B8BB30DA17BEBE8700CAB654 /* ConfigSheet.xib */,
 			);
 			path = Arcs2;
 			sourceTree = "<group>";
@@ -104,6 +113,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8BB30D617BEBDDA00CAB654 /* ArcAnimation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8BB30CA17BEBDC100CAB654 /* InfoPlist.strings in Resources */,
+				B8BB30DB17BEBE8700CAB654 /* ConfigSheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8BB30CE17BEBDC100CAB654 /* Arcs2View.m in Sources */,
+				B8BB30D717BEBDDA00CAB654 /* ArcAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Arcs2/Arcs2-Prefix.pch";
 				INFOPLIST_FILE = "Arcs2/Arcs2-Info.plist";
@@ -275,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Arcs2/Arcs2-Prefix.pch";
 				INFOPLIST_FILE = "Arcs2/Arcs2-Info.plist";
