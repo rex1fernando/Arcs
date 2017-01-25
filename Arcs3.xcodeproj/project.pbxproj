@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CD02173F1DFBB92800943EAA /* Arcs3View.h in Headers */ = {isa = PBXBuildFile; fileRef = CD02173E1DFBB92800943EAA /* Arcs3View.h */; };
 		CD0217411DFBB92800943EAA /* Arcs3View.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0217401DFBB92800943EAA /* Arcs3View.m */; };
+		CD02174E1DFBB94500943EAA /* ArcAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CD02174A1DFBB94500943EAA /* ArcAnimation.h */; };
+		CD02174F1DFBB94500943EAA /* ArcAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD02174B1DFBB94500943EAA /* ArcAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		CD02173E1DFBB92800943EAA /* Arcs3View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arcs3View.h; sourceTree = "<group>"; };
 		CD0217401DFBB92800943EAA /* Arcs3View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Arcs3View.m; sourceTree = "<group>"; };
 		CD0217421DFBB92800943EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD02174A1DFBB94500943EAA /* ArcAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcAnimation.h; sourceTree = "<group>"; };
+		CD02174B1DFBB94500943EAA /* ArcAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 		CD02173D1DFBB92800943EAA /* Arcs3 */ = {
 			isa = PBXGroup;
 			children = (
+				CD02174A1DFBB94500943EAA /* ArcAnimation.h */,
+				CD02174B1DFBB94500943EAA /* ArcAnimation.m */,
 				CD02173E1DFBB92800943EAA /* Arcs3View.h */,
 				CD0217401DFBB92800943EAA /* Arcs3View.m */,
 				CD0217421DFBB92800943EAA /* Info.plist */,
@@ -63,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD02173F1DFBB92800943EAA /* Arcs3View.h in Headers */,
+				CD02174E1DFBB94500943EAA /* ArcAnimation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD0217411DFBB92800943EAA /* Arcs3View.m in Sources */,
+				CD02174F1DFBB94500943EAA /* ArcAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,13 +1,25 @@
 //
-//  Arcs3View.h
-//  Arcs3
+//  ArcsView.h
+//  Arcs
 //
-//  Created by Rex Fernando on 12/9/16.
-//  Copyright © 2016 Rex Fernando. All rights reserved.
+//  Created by Margie Fernando on 8/13/13.
+//  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import "ArcAnimation.h"
 
-@interface Arcs3View : ScreenSaverView
+@interface Arcs3View : ScreenSaverView {
+    NSDate *startDate;
+    NSMutableArray *a;
+    
+    IBOutlet id sheet;
+    IBOutlet id fgColorWell;
+    IBOutlet id bgColorWell;
+    
+    NSColor *fgColor;
+    NSColor *bgColor;
+}
 
+- (IBAction)updatePrefs:(id)sender;
 @end
